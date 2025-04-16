@@ -93,7 +93,7 @@ class data_loader:
         self.labels=self.labels.astype(np.int8)
 
 #数据集路径
-base="D:\\代码\\PythonProject\\Machine Learning\\Handwiriting_Number_Recognition\\data\\MNIST\\raw"
+base="#your dataset address#"
 files = [
     "train-images-idx3-ubyte",
     "train-labels-idx1-ubyte",
