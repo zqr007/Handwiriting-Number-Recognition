@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 lr = 0.1
 n=100
-class my_neural_network:
+class My_Neural_Network:
     def __init__(self):
         self.w1 = np.random.rand(28 * 28, 128)*0.01
         self.w2 = np.random.rand(128, 10)*0.01
@@ -111,7 +111,7 @@ test_loader=data_loader(os.path.join(base,files[2]),os.path.join(base,files[3]))
 # plt.show()
 
 #训练模型
-model=my_neural_network()
+model=My_Neural_Network()
 images=train_loader.images
 labels=train_loader.labels
 for epoch in range(10):
